@@ -1,11 +1,15 @@
 package com.example.demo.greeting;
 
-import com.example.demo.greeting.Greeting;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.atomic.AtomicLong;
+
+/**
+ * incrementAndGet() 自增
+ * String.format 格式化
+ */
 
 @RestController
 public class GreetingController {
